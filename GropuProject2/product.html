@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Product Page</title>
+    <script src="https://kit.fontawesome.com/3f1f07c7b2.js" crossorigin="anonymous"></script>
+    <script type="module" src="product.js"></script>
+  </head>
+
+  <body>
+    <main>
+    <div class="nav">
+      <h1><span class="material-symbols-outlined">
+        storefront
+        </span>Blueberry</h1>
+    </div>
+    
+    <div class="inputcontainer">
+      <div class="search-box">
+        <form action="" id="form">
+          <button type="submit"><i class="fas fa-microphone"></i></button>
+          <input type="text" placeholder="Search product" id="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+
+
+    <br>
+    <div class="categoryfilter">
+      <h2>Filter By Category</h2>
+      <hr>
+      <div id="allproducts">
+        <div>
+          <img src="allproducts.png" alt="" srcset="" style="background-color: transparent;" width="30px"> All P.
+        </div>
+      </div>
+      <div id="mens">
+        <div>
+          <span class="material-symbols-outlined">
+            person
+            </span> Men
+        </div>
+      </div>
+      <div id="womens">
+        <div>
+          <span class="material-symbols-outlined">
+            woman
+            </span> Womens
+        </div>
+      </div>
+      <div id="kids">
+        <div>
+          <span class="material-symbols-outlined">
+            child_care
+            </span> Kids
+        </div>
+      </div>
+      <div id="bags">
+        <div>
+          <span class="material-symbols-outlined">
+            backpack
+            </span> Bags
+        </div>
+      </div>
+      <div id="decore">
+        <div>
+          <span class="material-symbols-outlined">
+            house
+            </span> Decores
+        </div>
+      </div>
+      <div id="gifts">
+        <div>
+          <span class="material-symbols-outlined">
+            redeem
+            </span> Gifts
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+    <div class="Brandfilter">
+      <h2>Filter By Brand Name</h2>
+      <hr>
+      <div id="nike">
+        <div>
+          <img src="nike.png" alt="" srcset="" style="background-color: transparent;" width="30px"> Nike
+        </div>
+      </div>
+      <div id="Adidas">
+        <div>
+          <img src="adidas.png" alt="" srcset="" style="background-color: transparent;" width="25px"> Adidas
+        </div>
+      </div>
+      <div id="Louis">
+        <div>
+          <img src="louis.png" alt="" srcset="" style="background-color: transparent;" width="20px">Louis V.
+        </div>
+      </div>
+      <div id="Cartier">
+        <div>
+          <img src="cartier.png" alt="" srcset="" style="background-color: transparent;" width="25px"> Cartier
+        </div>
+      </div>
+      <div id="Zara">
+        <div>
+          <img src="zara.png" alt="" srcset="" style="background-color: transparent;" width="45px"> Zara
+        </div>
+      </div>
+      
+    </div>
+
+
+
+
+    <br>
+    <div class="Clothingfilter">
+      <h2>Filter By Clothing & Bags</h2>
+      <hr>
+      <div id="topsfilter">
+        <div>
+          <img src="tshirt.png" alt="" srcset="" style="background-color: transparent; color: white;" width="30px" > Tops
+        </div>
+      </div>
+      <div id="jeanfilter">
+        <div>
+          <img src="jeans.png" alt="" srcset="" style="background-color: transparent;" width="25px"> Jeans
+        </div>
+      </div>
+      <div>
+        <div id="bagpacks">
+          <img src="bagpack.png" alt="" srcset="" style="background-color: transparent;" width="25px">Bags
+        </div>
+      </div>
+      
+
+    </div>
+
+
+
+
+
+
+    <br>
+    <div id="category-filter">
+          <h2>Filter By Price</h2>
+          <hr>
+          <div class="pricetag">
+            <h3>Price</h3>
+            <h3 class="clear">Clear</h3>
+          </div>
+          <div class="main">
+            <input type="range" min="0" max="100" value="50" id="priceslider">
+            <div id="selector">
+              <form action="">
+                <input type="number" placeholder="min" id="min" value="0"> to 
+              <input type="number" placeholder="max" id="max">
+              <input type="submit" value="submit">
+              </form>
+            </div>
+          </div>
+    </div>
+    </main>
+    <div class="datacontainer">
+        
+        <div id="product-container">
+        
+          <!-- Here Append All the Products  -->
+          
+      </div>
+    </div>
+    
+  </body>
+  
+
+  </script>
+</html>

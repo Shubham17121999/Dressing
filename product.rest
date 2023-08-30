@@ -1,0 +1,70 @@
+GET  https://63c9170d320a0c4c9540575f.mockapi.io/products
+
+###
+PATCH https://63c9170d320a0c4c9540575f.mockapi.io/products/119
+Content-Type: application/json
+
+{
+    "brand":"..."
+}
+
+###
+
+
+
+POST https://64228af2001cb9fc20290cae.mockapi.io/user
+Content-type : application/json; charset=UTF-8
+
+{
+    
+   
+ 
+  "name": "Ravi Sharma",
+
+    
+
+}
+###
+
+PATCH   https://64228af2001cb9fc20290cae.mockapi.io/user/8
+Content-Type: application/json
+
+{
+    "islogined" : false
+   
+  
+
+}
+
+###
+
+GET  https://63c9170d320a0c4c9540575f.mockapi.io/products?_limit=10&page=1
+
+###
+
+GET https://64228af2001cb9fc20290cae.mockapi.io/user
+
+###
+DELETE https://64228af2001cb9fc20290cae.mockapi.io/user/6
+
+###
+GET https://64228af2001cb9fc20290cae.mockapi.io/user
+
+###
+
+POST https://64228af2001cb9fc20290cae.mockapi.io/user
+Content-type : application/json
+
+{
+    
+   
+ 
+    "name": "Ravi Sharma",
+    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/409.jpg",
+    "email": "Newton.Schaden@example.net",
+    "password": "WNhzaY7MXUBgu18",
+    "phonenumber": 686434634
+  
+    
+
+}

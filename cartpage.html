@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<title>Blueberry</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="banner_slider.css">
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css'><link rel="stylesheet" href="./style.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
+
+
+
+</head>
+
+
+<header>
+  <nav>
+      <div class="wrapper">
+        <!-- <div class="logo"><a href="#">CodingNepal</a></div> -->
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="#">Home</a></li>
+          <li>
+              <a href="women.html" class="desktop-item">Women</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Clothing</header>
+                    <ul class="mega-links">
+                      <li><a href="women.html">Women Tops</a></li>
+                      <li><a href="women.html">Women Jeans</a></li>
+                      <li><a href="women.html">Ksirts</a></li>
+                      <li><a href="women.html">Knitwear</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="women.html">All Bags</a></li>
+                      <li><a href="women.html">Top Handle Bags</a></li>
+                      <li><a href="women.html">Tote Bags</a></li>
+                      <li><a href="women.html">Mini Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Gifts</header>
+                    <ul class="mega-links">
+                      <li><a href="women.html">All Gifts</a></li>
+                      <li><a href="women.html">The Check Edit</a></li>
+                      <li><a href="women.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="mens.html" class="desktop-item">Men</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Clothing</header>
+                    <ul class="mega-links">
+                      <li><a href="mens.html">T-Shirts</a></li>
+                      <li><a href="mens.html">Jeans</a></li>
+                      <li><a href="mens.html">Formal Dress</a></li>
+                      <li><a href="mens.html">Jakets</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="mens.html">All Bags</a></li>
+                      <li><a href="mens.html">Office Bags</a></li>
+                      <li><a href="mens.html">Travling Bags</a></li>
+                      <li><a href="mens.html">Rolling Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Gifts</header>
+                    <ul class="mega-links">
+                      <li><a href="mens.html">All Gifts</a></li>
+                      <li><a href="mens.html">The Check Edit</a></li>
+                      <li><a href="mens.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          <li>
+              <a href="kids.html" class="desktop-item">Kids</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Clothings</header>
+                    <ul class="mega-links">
+                      <li><a href="kids.html">All Cloths</a></li>
+                      <li><a href="kids.html">Shirt</a></li>
+                      <li><a href="kids.html">Jeans</a></li>
+                      <li><a href="kids.html">Under Garments</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="kids.html">School Bags</a></li>
+                      <li><a href="kids.html">Collage Bags</a></li>
+                      <li><a href="kids.html">Tour Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Gifts</header>
+                    <ul class="mega-links">
+                      <li><a href="kids.html">All Gifts</a></li>
+                      <li><a href="kids.html">The Check Edit</a></li>
+                      <li><a href="kids.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="bag.html" class="desktop-item">Bags</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Men's Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="bag.html">All Bags</a></li>
+                      <li><a href="bag.html">Office Bags</a></li>
+                      <li><a href="bag.html">Travling Bags</a></li>
+                      <li><a href="bag.html">Rolling Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Women's Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="bag.html">All Bags</a></li>
+                      <li><a href="bag.html">Top Handle Bags</a></li>
+                      <li><a href="bag.html">Tote Bags</a></li>
+                      <li><a href="bag.html">Mini Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Kid's Bags</header>
+                    <ul class="mega-links">
+                      <li><a href="bag.html">School Bags</a></li>
+                      <li><a href="bag.html">Collage Bags</a></li>
+                      <li><a href="bag.html">Tour Bags</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="homedecore.html" class="desktop-item">Home Decore</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Home Decore</header>
+                    <ul class="mega-links">
+                      <li><a href="homedecore.html">School Bags</a></li>
+                      <li><a href="homedecore.html">Collage Bags</a></li>
+                      <li><a href="homedecore.html">Tour Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Home Decore</header>
+                    <ul class="mega-links">
+                      <li><a href="homedecore.html">School Bags</a></li>
+                      <li><a href="homedecore.html">Collage Bags</a></li>
+                      <li><a href="homedecore.html">Tour Bags</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Home Decore</header>
+                    <ul class="mega-links">
+                      <li><a href="homedecore.html">School Bags</a></li>
+                      <li><a href="homedecore.html">Collage Bags</a></li>
+                      <li><a href="homedecore.html">Tour Bags</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="gifts.html" class="desktop-item">Gift</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img.jpg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>WOMEN'S GIFTS</header>
+                    <ul class="mega-links">
+                      <li><a href="gifts.html">All Gifts</a></li>
+                      <li><a href="gifts.html">The Check Edit</a></li>
+                      <li><a href="gifts.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>MEN'S GIFTS</header>
+                    <ul class="mega-links">
+                      <li><a href="gifts.html">All Gifts</a></li>
+                      <li><a href="gifts.html">The Check Edit</a></li>
+                      <li><a href="gifts.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Children Gifts</header>
+                    <ul class="mega-links">
+                      <li><a href="gifts.html">All Gifts</a></li>
+                      <li><a href="gifts.html">The Check Edit</a></li>
+                      <li><a href="gifts.html">Personalised Gifts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          <li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        <div id="account-div" >
+            <a href="login.html">Login/Signup</a>
+            <a href="">My Account <i class="fa-solid fa-user"></i></a>
+          </div>
+      </div>
+    </nav>
+</header>
+
+
+<body>
+    <nav>
+        <div class="wrapper">
+          <!-- <div class="logo"><a href="#">CodingNepal</a></div> -->
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#" class="desktop-item">Women</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>Clothing</header>
+                      <ul class="mega-links">
+                        <li><a href="#">Women Tops</a></li>
+                        <li><a href="#">Women Jeans</a></li>
+                        <li><a href="#">Ksirts</a></li>
+                        <li><a href="#">Knitwear</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Bags</a></li>
+                        <li><a href="#">Top Handle Bags</a></li>
+                        <li><a href="#">Tote Bags</a></li>
+                        <li><a href="#">Mini Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Gifts</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="desktop-item">Men</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>Clothing</header>
+                      <ul class="mega-links">
+                        <li><a href="#">T-Shirts</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Formal Dress</a></li>
+                        <li><a href="#">Jakets</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Bags</a></li>
+                        <li><a href="#">Office Bags</a></li>
+                        <li><a href="#">Travling Bags</a></li>
+                        <li><a href="#">Rolling Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Gifts</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            <li>
+                <a href="#" class="desktop-item">Kids</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>Clothings</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Cloths</a></li>
+                        <li><a href="#">Shirt</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Under Garments</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School Bags</a></li>
+                        <li><a href="#">Collage Bags</a></li>
+                        <li><a href="#">Tour Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Gifts</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="desktop-item">Bags</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>Men's Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Bags</a></li>
+                        <li><a href="#">Office Bags</a></li>
+                        <li><a href="#">Travling Bags</a></li>
+                        <li><a href="#">Rolling Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Women's Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Bags</a></li>
+                        <li><a href="#">Top Handle Bags</a></li>
+                        <li><a href="#">Tote Bags</a></li>
+                        <li><a href="#">Mini Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Kid's Bags</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School Bags</a></li>
+                        <li><a href="#">Collage Bags</a></li>
+                        <li><a href="#">Tour Bags</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="desktop-item">Home Decore</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>Home Decore</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School Bags</a></li>
+                        <li><a href="#">Collage Bags</a></li>
+                        <li><a href="#">Tour Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Home Decore</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School Bags</a></li>
+                        <li><a href="#">Collage Bags</a></li>
+                        <li><a href="#">Tour Bags</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Home Decore</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School Bags</a></li>
+                        <li><a href="#">Collage Bags</a></li>
+                        <li><a href="#">Tour Bags</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="desktop-item">Gift</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Mega Menu</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <img src="img.jpg" alt="">
+                    </div>
+                    <div class="row">
+                      <header>WOMEN'S GIFTS</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>MEN'S GIFTS</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                    <div class="row">
+                      <header>Children Gifts</header>
+                      <ul class="mega-links">
+                        <li><a href="#">All Gifts</a></li>
+                        <li><a href="#">The Check Edit</a></li>
+                        <li><a href="#">Personalised Gifts</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            <li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+          <div id="account-div" >
+              <a href="">Login/Signup</a>
+              <a href="">My Account <i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+      </nav>
+<!-- <nav id="top-nav">
+    <div>
+        <img src="" alt="">
+    </div>
+    <div id="atag_div">
+        <a href="" id="atag">Gift</a>
+        <a href="" id="atag">New in</a>
+        <a href="" id="atag">Women</a>
+        <a href="" id="atag">Men</a>
+        <a href="" id="atag">Children</a>
+        <a href="" id="atag">Bags</a>
+        <a href="" id="atag">Stories</a>
+        <a href="" id="atag">VALUES</a>
+    </div>
+    <div>
+        <a href="">My Account</a>
+        <a href="">Whish List</a>
+        <a href=""> <i class="fa-solid fa-user"></i></a>
+        
+    </div>
+</nav> -->
+<div id="bottom-nav">
+    <div>
+        <img src="Blueberryicon1.png" alt="">
+        <span>Blueberry</span>
+    </div>
+    <div>
+        <form>
+            <input type="text" id="productname">
+            <!-- <input type="submit" id="filterbtn" value=""> -->
+            <button type="submit" id="filterbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+    <div>
+        <a href="">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>SHOPPING CART</span>
+        </a>
+    </div>
+</div>
+<!-- **************************** women women women women  **************************** -->
+<div class="main-div">
+  <h1>Women's Clothing</h1>
+  <div class="main-div-child" id="cart_div"></div>
+</div>
+ <!-- ******************************************************** footer footer footer ***************************** -->
+  <!-- ******************************************************** footer footer footer ***************************** -->
+  <footer>
+    <div id="footer-child">
+        <div>
+            <a href="">
+                <img src="Blueberryicon1.png">
+                <h1>Blueberry</h1>
+            </a>
+            
+        </div>
+        <div id="about-us">
+            <h2>About Us</h2>
+            <p>Burberry is a British luxury fashion house <br>
+                established in 1856 by Thomas Burberry<br>
+                 headquartered in London, England.[3] <br>
+                 It currently designs and distributes <br>
+                 ready to wear, including trench coats<br>
+                  (for which it is most famous),<br>
+                  leather accessories, and footwear. <br>
+                  Its name and branding are licensed to <br>
+                  Coty for fragrances and cosmetics[4]<br>
+                  and to Luxottica for eyewear.[5]
+            </p>
+        </div>
+        <div>
+            <h2>Let Us Help You</h2>
+            <ul>
+                <li><a href="">COVID-19 and Amazon</a></li>
+                <li><a href="">Your Account</a></li>
+                <li><a href="">Returns Centre</a></li>
+                <li><a href="">100% Purchase Protection</a> </li>
+                <li><a href="">Amazon App Download</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Sell and Earn Money</h2>
+            <ul>
+                <li><a href="">Sell on Amazon</a></li>
+                <li><a href="">Sell under Amazon Accelerator</a></li>
+                <li><a href="">Protect and Build Your Brand</a></li>
+                <li><a href="">Amazon Global Selling</a></li>
+                <li><a href="">Become an Affiliate</a></li>
+                <li><a href="">Fulfilment by Amazon</a></li>
+                <li><a href="">Advertise Your Products</a></li>
+                <li><a href="">Amazon Pay on Merchants</a></li>   
+            </ul>
+        </div>
+    </div>
+  </footer>
+  <!-- <script src="index.js"></script> -->
+  <script src="cartpage.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>

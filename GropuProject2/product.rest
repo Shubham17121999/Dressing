@@ -1,0 +1,19 @@
+GET  https://63c9170d320a0c4c9540575f.mockapi.io/products
+
+###
+PATCH https://63c9170d320a0c4c9540575f.mockapi.io/products/119
+Content-Type: application/json
+
+{
+    "brand":"..."
+}
+
+###
+PATCH   https://63c9170d320a0c4c9540575f.mockapi.io/products/109
+Content-Type: application/json
+
+{"price":80}
+
+###
+
+GET  https://63c9170d320a0c4c9540575f.mockapi.io/products?_limit=10&page=1
