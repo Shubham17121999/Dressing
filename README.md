@@ -1,7 +1,7 @@
 
 <p align="center"><img src="![Logo of the Website](Blueberryicon2.png)"></p>
 
-
+![Logo Of The Website](![Logo](<Blueberryicon2.png>))
 ## Dressing.com
 Discover a world of endless shopping possibilities at our e-commerce store! with Dressing . From fashion and beauty to home, we've got everything you need at our e-commerce store.
 
