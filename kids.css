@@ -14,7 +14,7 @@ position: fixed;
 z-index: 99;
 width: 100%;
 
-background: #137be2;
+background: #242526;
 }
 
 
@@ -155,14 +155,14 @@ border-radius: 5px;
 transition: all 0.3s ease;
 }
 .nav-links li a:hover{
-background: #116bc5;
+background: #3A3B3C;
 }
 .nav-links .mobile-item{
 display: none;
 }
 .nav-links .drop-menu{
 position: absolute;
-background: #187de1;
+background: #242526;
 width: 180px;
 line-height: 45px;
 top: 85px;
@@ -194,7 +194,7 @@ opacity: 0;
 visibility: hidden;
 }
 .mega-box .content{
-background: #0b72d9;
+background: #242526;
 padding: 25px 20px;
 display: flex;
 width: 100%;

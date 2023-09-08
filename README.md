@@ -7,14 +7,12 @@ Discover a world of endless shopping possibilities at our e-commerce store! with
 
 
 ## Screenshots
+![App Screenshot](<images/Screenshot (196).png>)
+![App Screenshot](<images/Screenshot (197).png>)
 
-![App Screenshot](![HomePage](<Screenshot (190).png>))
-![App Screenshot](![Section](<Screenshot (192).png>))
 
 ## To Visit 
-
-
-https://64f6c9ee55d27f60343c31df--luminous-blancmange-423010.netlify.app/
+https://64facaa61095e240768db4e3--visionary-banoffee-c1e2f3.netlify.app/
 
 ## Author
 
@@ -24,7 +22,7 @@ https://64f6c9ee55d27f60343c31df--luminous-blancmange-423010.netlify.app/
 ## 🛠 Description
 - E-commerse site in the team responsible for handling both User Site And Admin Site (frontend)
 ## Tech Stack: 
-Javascript, LocalStarage, Api, Css, Html
+Javascript, LocalStorage, Api, Css, Html
  
 ## Features
 - Our website, built with the power of HTML, CSS, and JavaScript! Our team of web developers has worked tirelessly to create a seamless user experience for you. From the layout and design to the functionality and interactivity.
