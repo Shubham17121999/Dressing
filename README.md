@@ -33,7 +33,7 @@ Javascript, LocalStorage, Api, Css, Html
 
 - We are added  Add to Cart page , product view , Payment gateway page to this Website.
 
-- Our Admin page, where you can manage all of the content on our website. With the power of CRUD operations - create, read, update, and delete - you can easily add new products, update existing ones, and remove outdated content..
+- Our Admin page, where you can manage all of the content on our website. With the power of CRUD operations - create, read, update, and delete - you can easily add new products, update existing ones, and remove outdated content...
 
 
 
