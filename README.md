@@ -12,7 +12,7 @@ Discover a world of endless shopping possibilities at our e-commerce store! with
 
 
 ## To Visit 
-https://64facaa61095e240768db4e3--visionary-banoffee-c1e2f3.netlify.app/
+https://6503321ae15bd808822b36bf--lovely-griffin-5be0f8.netlify.app/
 
 ## Author
 
